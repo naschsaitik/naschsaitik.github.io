@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="/favicon.ico">
-    <title>Ну шо, наш сайтик подъехал</title>
+    <title>CHROMA-KEY.SU - твой ключ в мир видеоигр</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
@@ -63,7 +63,7 @@
 
             <div class="row row-features">
                 <div class="col-md-4">
-                    <p class="fast">Быстрая доставка</p>
+                    <p class="fast red">Быстрая доставка</p>
                 </div>
                 <div class="col-md-4 text-center">
                     <p class="garant">Гарантии</p>
@@ -110,27 +110,45 @@
 				<div class="row">
 					<div class="coin-block">
 						<div class="col-md-3">
-							<img src="img/green_coin.png" alt="">
+							<div class="coin-block_wrap">
+								<img src="img/green_coin.png" alt="">
+								<div class="hov_border"></div>
+								<div class="hov_gr"></div>
+							</div>
 						</div>
 					</div>
 					<div class="coin-block">
 						<div class="col-md-3">
-							<img src="img/bronze_coin.png" alt="">
+							<div class="coin-block_wrap">
+								<img src="img/bronze_coin.png" alt="">
+								<div class="hov_border"></div>
+								<div class="hov_br"></div>
+							</div>
 						</div>
 					</div>
 					<div class="coin-block">
 						<div class="col-md-3">
-							<img src="img/silver_coin.png" alt="">
+							<div class="coin-block_wrap">
+								<img src="img/silver_coin.png" alt="">
+								<div class="hov_border"></div>
+								<div class="hov_si"></div>
+							</div>
 						</div>
 					</div>
 					<div class="coin-block">
 						<div class="col-md-3">
-							<img src="img/gold_coin.png" alt="">
+							<div class="coin-block_wrap">
+								<img src="img/gold_coin.png" alt="">
+								<div class="hov_border"></div>
+								<div class="hov_go"></div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
+		
+
 
 		<section class="information-2">
 			<div class="container">
@@ -245,6 +263,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/wow.min.js"></script>
+
+    <!-- <script>
+    	$(document).ready(function(){
+    		$('.coin-block').mouseenter(function(){ 
+          $(this).find('.s1').toggleClass('anim');
+        });
+    			});
+    </script> -->
+    
     <script>
       new WOW().init();
     </script>
